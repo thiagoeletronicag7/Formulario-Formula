@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Camisa Fórmula</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <img src="imgs/formula-logo.png" alt="Logo Fórmula Cefast">
+            <h2>Fórmula Cefast</h2>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Pesquisa de Produtos</h1>
+                <p>Estamos na fase de desenvolvimento de produtos novos, com isso em mente, estamos trazendo este rápido formulário para que possamos agilizar.</p>
+                <form action="pagina-2.html">
+                    <div class="box-input">
+                        <label for="first-name">Nome: <span class="required-field">*</span></label>
+                        <input 
+                        type="text" 
+                        name="first-name" 
+                        id="first-name" 
+                        class="block"
+                        placeholder="Nome" 
+                        minlength="1" 
+                        maxlength="30" 
+                        required>
+                    </div>
+                    <div class="box-input">
+                        <label for="last-name">Sobrenome: <span class="required-field">*</span></label>
+                        <input 
+                        type="text" 
+                        name="last-name" 
+                        id="last-name" 
+                        class="block"
+                        placeholder="Sobrenome" 
+                        minlength="1" 
+                        maxlength="30" 
+                        required>
+                    </div>
+                    <div class="box-input">
+                        <p>Área: <span class="required-field">*</span></p>
+                        <input type="radio" id="adm" name="area" required>
+                        <label for="adm">ADM</label>
+                        <input type="radio" id="eng1" name="area">
+                        <label for="eng1">ENG 1</label>
+                        <input type="radio" id="eng2" name="area">
+                        <label for="eng2">ENG 2</label>
+                        <input type="radio" id="eng3" name="area">
+                        <label for="eng3">ENG 3</label>
+                        <input type="radio" id="gerencia" name="area">
+                        <label for="gerencia">GERÊNCIA</label>
+                    </div>
+                    <div class="box-input">
+                        <p>Ano de entrada na equipe: <span class="required-field">*</span></p>
+                        <input type="radio" id="2018" name="year" required>
+                        <label for="2018">2018</label>
+                        <input type="radio" id="2019" name="year">
+                        <label for="2019">2019</label>
+                        <input type="radio" id="2020" name="year">
+                        <label for="2020">2020</label>
+                        <input type="radio" id="2021" name="year">
+                        <label for="2021">2021</label>
+                        <input type="radio" id="2022" name="year">
+                        <label for="2022">2022</label>
+                        <input type="radio" id="2023" name="year">
+                        <label for="2023">2023</label>
+                    </div>
+                    <input type="submit" value="Próximo" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

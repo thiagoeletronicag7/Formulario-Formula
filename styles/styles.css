@@ -1,0 +1,147 @@
+/*Estrutura da página*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #181820;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    color: #181820;
+}
+
+p, 
+label {
+    color: #181820a9;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #181820;
+    padding: 10px 0;
+}
+
+input [type="text"],
+input [type="date"],
+input [type="number"],
+input [type="file"],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px ;
+}
+
+/*Cabeçalho*/
+header {
+    height: 160px;
+    padding: 0;
+    margin: 0;
+    background-color: #ca202e;
+}
+
+header img {
+    height: 160px;
+    margin-right: 20px;
+}
+
+header h2 {
+    position: relative;
+    color: #fff;
+    margin: 0;
+    width: 300px;
+    top: -150px;
+    left: 540px;
+    text-transform: uppercase;
+}
+
+/*Corpo do container do formulário*/
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+.img-size {
+    width: 400px;
+}
+
+.imgs-description {
+    color: #0e0d0dc4;
+    font-weight: 600;
+}
+
+/*Cabeçalho do formulário*/
+.form-header {
+    border-bottom: 1px solid #0e0d0d44;
+    height: 45px;
+}
+
+.form-header p {
+    color: #ca202e;
+    border-bottom: 1px solid #ca202e;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/*Corpo do Formulário*/
+.form-body {
+    padding: 20px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.required-field {
+    color: #ca202e;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.box-input p {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: #ca202e;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: #ca202e;
+    color: #ca202e;
+}

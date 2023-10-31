@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Camisa Fórmula</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/btn-pag4.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <img src="imgs/formula-logo.png" alt="Logo Fórmula Cefast">
+            <h2>Fórmula Cefast</h2>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Boné</h1>
+                <form action="pagina-3.html">
+                    <a href="pagina-3.html"><button class="back-page">Anterior</button></a>
+                </form>
+                <form action="pagina-5.html"> 
+                    <div class="box-input">
+                        <p>Qual tipo de aba?<span class="required-field">*</span></p>
+                        <input type="radio" id="Curva" name="aba" required>
+                        <label for="Curva">Curva</label>
+                        <input type="radio" id="Reta" name="aba">
+                        <label for="Reta">Reta</label>
+                    </div>
+                    <div class="box-input">
+                        <p>Qual tipo de acabamento?<span class="required-field">*</span></p>
+                        <input type="radio" id="closed" name="acabamento" required>
+                        <label for="closed">Fechado atrás</label>
+                        <input type="radio" id="Telinha" name="acabamento">
+                        <label for="Telinha">Telinha atrás</label>
+                    </div>
+                    <div class="box-input">
+                        <p>Quantos tipos de modelo você gostaria?<span class="required-field">*</span></p>
+                        <input type="radio" id="one" name="model" required>
+                        <label for="one">1</label>
+                        <input type="radio" id="two" name="model">
+                        <label for="two">2</label>
+                        <input type="radio" id="three" name="model">
+                        <label for="three">3</label>
+                    </div>
+                    <div class="box-input">
+                        <p>Qual cor você prefere?<span class="required-field">*</span></p>
+                        <input type="radio" id="black" name="color" required>
+                        <label for="black">Preto</label>
+                        <input type="radio" id="white" name="color">
+                        <label for="white">Branco</label>
+                        <input type="radio" id="red" name="color">
+                        <label for="red">Vermelho</label>
+                    </div>
+                    <input type="submit" value="Próximo" class="btn-submit">   
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

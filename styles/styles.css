@@ -60,7 +60,7 @@ header h2 {
     margin: 0;
     width: 300px;
     top: -150px;
-    left: 540px;
+    left: 700px;
     text-transform: uppercase;
 }
 
@@ -71,6 +71,26 @@ header h2 {
     margin: 0 auto;
     position: relative;
     top: -62px;
+}
+
+.back-page {
+    position: relative;
+    top: 685px;
+    right: 10px;
+    background-color: #ca202e;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.back-page:hover {
+    background-color: #fff;
+    border-color: #ca202e;
+    color: #ca202e;
 }
 
 .img-size {
@@ -129,6 +149,8 @@ header h2 {
 }
 
 .btn-submit {
+    position: relative;
+    left: 145px;
     background-color: #ca202e;
     color: #fff;
     border: 2px solid transparent;
@@ -137,7 +159,6 @@ header h2 {
     cursor: pointer;
     text-transform: uppercase;
     transition: 1s;
-
 }
 
 .btn-submit:hover {

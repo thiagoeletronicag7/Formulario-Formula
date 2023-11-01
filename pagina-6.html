@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Camisa Fórmula</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/btn-pag6.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <img src="imgs/formula-logo.png" alt="Logo Fórmula Cefast">
+            <h2>Fórmula Cefast</h2>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Moletom/Corta Vento</h1>
+                <p>Imagens meramente ilustrativas</p>
+                <figure>
+                <figcaption class="imgs-description">Moletom 2022</figcaption>
+                <img class="img-size" src="imgs/moletom-2022.jpg" alt="Moletom 2022"/>
+                <figcaption class="imgs-description">Exemplo Jaqueta</figcaption>
+                <img class="img-size" src="imgs/exemplo-jaqueta.jpg" alt="Exemplo Jaqueta"/>
+                <figcaption class="imgs-description">Corta Vento 2020</figcaption>
+                <img class="img-size" src="imgs/camisa-oficina-2023.jpg" alt="Corta Vento 2020"/>
+                </figure>
+                <form action="pagina-5.html">
+                    <a href="pagina-5.html"><button class="back-page">Anterior</button></a>
+                </form>
+                <form action="pagina-7.html"> 
+                    <div class="box-input">
+                        <p>Qual modelo você gostaria?<span class="required-field">*</span></p>
+                        <input type="radio" id="moletom-2022" name="blusa-frio" required>
+                        <label for="moletom-2022">Moletom 2022</label>
+                        <input type="radio" id="jaqueta" name="blusa-frio">
+                        <label for="jaqueta">Jaqueta</label>
+                        <input type="radio" id="corta-vento" name="blusa-frio">
+                        <label for="corta-vento">Corta vento</label>
+                    </div>
+                    <div class="box-input">
+                        <p>Qual cor você gostaria?<span class="required-field">*</span></p>
+                        <input type="radio" id="black-red" name="color-preference-frio" required>
+                        <label for="black-red">Preto e Vermelho</label>
+                        <input type="radio" id="black" name="color-preference-frio">
+                        <label for="black">Preto</label>
+                        <input type="radio" id="blue" name="color-preference-frio">
+                        <label for="blue">Azul</label>
+                        <input type="radio" id="blue-red" name="color-preference-frio">
+                        <label for="blue-red">Azul e vermelho</label>
+                        <input type="radio" id="blue-white" name="color-preference-frio">
+                        <label for="blue-white">Azul e Branco</label>
+                        <input type="radio" id="white" name="color-preference-frio">
+                        <label for="white">Branco</label>
+                        <input type="radio" id="white-red" name="color-preference-frio">
+                        <label for="white-red">Branco e Vermelho</label>
+                    </div>
+                    <input type="submit" value="Próximo" class="btn-submit">   
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

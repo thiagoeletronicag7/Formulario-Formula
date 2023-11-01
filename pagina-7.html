@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Camisa Fórmula</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/btn-pag7.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <img src="imgs/formula-logo.png" alt="Logo Fórmula Cefast">
+            <h2>Fórmula Cefast</h2>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Geral</h1>
+                <form action="pagina-6.html">
+                    <a href="pagina-6.html"><button class="back-page">Anterior</button></a>
+                </form>
+                <form action="pagina-8.html"> 
+                    <div class="box-input">
+                        <p>Quais produtos você gostaria de ver na temporada 23/24?</p>
+                        <input type="checkbox" id="polo" name="shirts-options[]" value="polo">
+                        <label for="polo">Camisa Polo</label>
+                        <input type="checkbox" id="oficina" name="shirts-options[]" value="oficina">
+                        <label for="oficina">Camisa Oficina</label>
+                        <input type="checkbox" id="caneca" name="shirts-options[]" value="caneca">
+                        <label for="caneca">Caneca e tirante</label>
+                        <input type="checkbox" id="chaveiro" name="shirts-options[]" value="chaveiro">
+                        <label for="chaveiro">Chaveiro</label>
+                        <input type="checkbox" id="jaqueta" name="shirts-options[]" value="jaqueta">
+                        <label for="jaqueta">Jaqueta</label>
+                        <input type="checkbox" id="corta-vento" name="shirts-options[]" value="corta-vento">
+                        <label for="corta-vento">Corta Vento</label>
+                        <input type="checkbox" id="sticker" name="shirts-options[]" value="sticker">
+                        <label for="sticker">Adesivos</label>
+                        <input type="checkbox" id="other" name="shirts-options[]" value="other">
+                        <label for="other">Outro:</label>
+                        <input type="text" name="other" id="other" minlength="1" maxlength="30">
+                    </div>
+                    <div class="box-input">
+                        <label for="comments">Comentários:</label>
+                        <textarea name="comments" id="comments" class="block"></textarea>
+                    </div>                        
+                    <input type="submit" value="Próximo" class="btn-submit">   
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

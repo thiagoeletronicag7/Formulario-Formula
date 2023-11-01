@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Camisa Fórmula</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/pg5.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <img src="imgs/formula-logo.png" alt="Logo Fórmula Cefast">
+            <h2>Fórmula Cefast</h2>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Acessórios</h1>
+                <p>Imagens meramente ilustrativas</p>
+                <figure>
+                <figcaption class="imgs-description">Chaveiro</figcaption>
+                <img class="img-size-chaveiro" src="imgs/chaveiro-formula.jpg" alt="Camisa Michigan 2022"/>
+                </figure>
+                <form action="pagina-4.html">
+                    <a href="pagina-4.html"><button class="back-page">Anterior</button></a>
+                </form>
+                <form action="pagina-6.html"> 
+                    <div class="box-input">
+                        <p>Dos acessórios abaixo, qual você gostaria de ter?</p>
+                        <input type="checkbox" id="socks" name="shirts-options[]" value="socks">
+                        <label for="socks">Meia</label>
+                        <input type="checkbox" id="chaveiro" name="shirts-options[]" value="chaveiro">
+                        <label for="chaveiro">Chaveiro</label>
+                        <input type="checkbox" id="sacochila" name="shirts-options[]" value="sacochila">
+                        <label for="sacochila">Sacochila</label>
+                        <input type="checkbox" id="sticker" name="shirts-options[]" value="sticker">
+                        <label for="sticker">Adesivo</label>
+                        <input type="checkbox" id="mousepad" name="shirts-options[]" value="mousepad">
+                        <label for="mousepad">Mousepad</label>
+                    </div>                        
+                    <input type="submit" value="Próximo" class="btn-submit">   
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
